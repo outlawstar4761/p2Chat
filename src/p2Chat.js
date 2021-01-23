@@ -41,8 +41,8 @@ const mod = (function(){
   });
   function _sendMessage(message){
     // Broadcast to peers
-    for (let id in peers){
-      peers[id].conn.write(message);
+    for (let id in _peers){
+      _peers[id].conn.write(message);
     }
   }
   async function _getPort(){

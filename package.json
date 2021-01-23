@@ -1,0 +1,17 @@
+{
+  "name": "p2chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dat-swarm-defaults": "^1.0.2",
+    "discovery-swarm": "^6.1.0",
+    "get-port": "^5.1.1",
+    "portfinder": "^1.0.28"
+  }
+}
